@@ -4,7 +4,7 @@ cyse 570 bulletin board project
 1) Set up Apache
 2) Start a MySQL instance
 3) Create a database named 'bboard_db'
-4) Create a user 'bboard_user' with full privileges for the database
+4) Create a user 'bboard_user' with full privileges for the database and password 'swordFish99'
 5) Create a table called 'bbusers' with the following command:
 ```create table bbusers (   email    varchar(50),   name     varchar(30),   password varchar(10),   nickname varchar(30),   primary key (email) );```
 
