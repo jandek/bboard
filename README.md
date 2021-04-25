@@ -6,7 +6,7 @@ cyse 570 bulletin board project
 3) Create a database named 'bboard_db'
 4) Create a user 'bboard_user' with full privileges for the database and password 'swordFish99'
 5) Create a table called 'bbusers' with the following command:
-```create table bbusers (   email    varchar(50),   name     varchar(30),   password varchar(10),   nickname varchar(30),   primary key (email) );```
+```create table bbusers (   email    varchar(50),   name     varchar(30),   password varchar(40),   nickname varchar(30),   primary key (email) );```
 
 6) Create a table called 'postings' with the following command:
 ```create table bbusers (   email    varchar(50),   name     varchar(30),   password varchar(10),   nickname varchar(30),   primary key (email) ); create table postings (   postId       integer(5) auto_increment,   postDate     datetime,   postedBy     varchar(50),   postSubject  varchar(100),   content      varchar(512),   ancestorPath varchar(100),   primary key (postId), foreign key (postedBy) references bbusers (email));```
